@@ -1,0 +1,44 @@
+:root {
+  --bg: #14120f;
+  --bg-alt: #1c1915;
+  --panel: #211d18;
+  --border: #332d24;
+  --text: #f2ede4;
+  --text-muted: #b8ada0;
+  --sand: #d3b48c;
+  --sand-light: #e8d3ac;
+  --sand-dark: #a9855b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(rgba(20, 18, 15, 0.86), rgba(20, 18, 15, 0.86)),
+    url('./assets/background.svg');
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: var(--text);
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
