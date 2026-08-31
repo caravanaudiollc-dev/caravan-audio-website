@@ -15,7 +15,7 @@ const SERVICES = [
    {
     title: 'System Installation',
     description:
-      'Does your resturant, bar, or venue need a new sound system for in house events? Caravan Audio provides purchasing, insallation, and even services for an on site tech for your new sound system. Contact Caravan for system packages today!',
+      'Does your restaurant, bar, or venue need a new sound system for in house events? Caravan Audio provides purchasing, installation, and even services for an on site tech for your new sound system. Contact Caravan for system packages today!',
   },
 ]
 
