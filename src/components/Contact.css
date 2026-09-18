@@ -24,11 +24,42 @@
   color: var(--text);
 }
 
+.partner-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 3rem auto 0;
+}
+
+.partner-logo {
+  display: block;
+  width: 150px;
+  height: auto;
+}
+
+.partner-logo--badge {
+  width: 110px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.partner-logo--chip {
+  width: 150px;
+  background: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
 .contact-logo {
   display: block;
   width: 140px;
   height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  margin: 3rem auto 0;
+  margin: 1.5rem auto 0;
 }
